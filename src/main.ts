@@ -9,7 +9,7 @@ type githubIssue = {
 
 async function main() {
     try {
-        const client = new github.GitHub(core.getInput("token", {required: true}));
+        const client = new github.GitHub(core.getInput("repo-token", {required: true}));
 
         // If the issue is being closed, we don't need to do anything
         if (github.context.payload.action !== "opened") {
