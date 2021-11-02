@@ -1,0 +1,22 @@
+name: 'Acknowledge Action'
+description: 'Greet a new issuer or contributor'
+branding:
+  icon: award
+  color: green
+inputs:
+  repo-token:
+    description: "Token for the repository"
+    required: true
+  issue-message:
+    required: false
+    description: 'Message to be displayed to the new issuer'
+  pr-message:
+    required: false
+    description: 'Message to be displayed to a new pull request'
+  contr-message:
+    required: false
+    description: 'Message to be displayed to a new contributor'
+
+runs:
+  using: 'node12'
+  main: 'lib/index.js'

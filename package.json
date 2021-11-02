@@ -1,0 +1,42 @@
+{
+  "name": "acknowledge-actions",
+  "version": "1.0.0",
+  "description": "A Github action workflow to greet new people or contributors when they create their first issue on a repository",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write **/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KushGabani/greet-issuers-action.git"
+  },
+  "keywords": [
+    "Github Issues",
+    "Github Actions",
+    "Automated Workflow",
+    "Greet Issue",
+    "Greet Issuers",
+    "Greet New Issuers",
+    "Greet new People",
+    "actions",
+    "first",
+    "interaction"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KushGabani/greet-issuers-action/issues"
+  },
+  "homepage": "https://github.com/KushGabani/greet-issuers-action#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
