@@ -5,8 +5,8 @@ branding:
   color: green
 inputs:
   repo-token:
-    description: "Token for the repository"
     required: true
+    description: "Token for the repository"
   issue-message:
     required: false
     description: 'Message to be displayed to the new issuer'

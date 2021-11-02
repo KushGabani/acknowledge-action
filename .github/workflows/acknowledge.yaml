@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Acknowledge Action
     steps:
-      - uses: actions/checkout@v2
-      - run: npm install
       - name: greet first issuers
         uses: kushgabani/acknowledge-action@v1
         with:
